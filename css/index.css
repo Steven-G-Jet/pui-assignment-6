@@ -551,7 +551,45 @@ strong{
 .col-2 img {
   align-self: flex-end;
 }
+  
+  
+img#project-1-img {
+      width: 100%;
+      height: auto;
+    }
 
+
+img#project-2-img {
+  width: 100%;
+  height: auto;
+}
+
+img#project-3-img-bg{
+  position: absolute;
+  width: 100%;
+  height: 500px;
+}
+
+img#project-3-img {
+  width: 100%;
+  height: 500px;
+}
+
+img#project-4-img-bg{
+  position: absolute;
+  width: 100%;
+  height: 567.57px;
+}
+
+img#project-4-img {
+  width: 100%;
+  height:  567.57px;
+}
+
+  
+/*  project description below  */
+  
+  
 .project-des{
   /*outline: 1px solid #111;*/
   color: #121212;
