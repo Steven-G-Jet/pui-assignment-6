@@ -136,9 +136,6 @@ a:hover {
 
 
 
-
-
-
 @media only screen and (min-device-width: 375px){
 
     /**/
@@ -167,7 +164,7 @@ a:hover {
     }
 
     .space{
-      margin-top: 40px;
+      margin: 100px auto;
     }
 
     .l-bran {
@@ -288,22 +285,87 @@ a:hover {
       display: flex;
     }
 
-    #project-1.project-img{
+    #project-1 div.project-img{
       height: 250px;
       background-color: #077DFF;
     }
 
-    #project-2.project-img{
+    #project-2 div.project-img{
       height: 660px;
     }
 
-    #project-3.project-img{
+    #project-3 div.project-img{
       height: 500px;
     }
 
-    #project-4.project-img{
+    #project-4 div.project-img{
       height: 567px;
     }
+
+
+    #project-1 div.project-img-bg{
+      position: absolute;
+      align-self: flex-end;
+      height: 10px;
+      width: 100%;
+      background-color: #077DFF;
+      z-index: -1;
+    }
+
+    #project-2 div.project-img-bg{
+      position: absolute;
+      align-self: center;
+      height: 330px;
+      width: 100%;
+      background-color: #FAB012;
+      z-index: -1;
+    }
+
+    #project-3 img.project-img-bg{
+      align-self: flex-end;
+    }
+
+    #project-4 img.project-img-bg{
+      align-self: flex-end;
+    }
+
+    /*project-img*/
+
+    img#project-1-img {
+      width: 100%;
+      height: auto;
+    }
+
+
+    img#project-2-img {
+      width: 100%;
+      height: auto;
+    }
+
+    img#project-3-img-bg{
+      position: absolute;
+      width: 100%;
+      height: 377.77px;
+    }
+
+    img#project-3-img {
+      width: 100%;
+      height: 377.7px;
+    }
+
+    img#project-4-img-bg{
+      position: absolute;
+      width: 100%;
+      height: 425.68px;
+    }
+
+    img#project-4-img {
+      width: 100%;
+      height:  425.68px;
+    }
+
+
+    /**/
 
     .project-des{
       /*outline: 1px solid #111;*/
@@ -344,21 +406,25 @@ a:hover {
 
     .l-menu {
       /*outline: 5px solid #fff;*/
-      max-width: 1173px;
+      max-width: 100%;
       height: 205px;
       margin-right: auto;
       margin-left: auto;
-      padding-top: 60px;
+      padding-top: 30px;
+      padding-left: 28px;
+      padding-right: 28px;
     }
 
     .l-menu ul li {
-      padding-top: 10px;
-      padding-bottom: 10px;
-      font-size: 3.4rem;
+      padding-top: 0px;
+      padding-bottom: 40px;
+      font-size: 2rem;
       color: #fff;
       font-family: 'GT America', sans-serif;
       font-weight: 300;
       text-align:right;
+      margin-bottom: 0px;
+      line-height: 1;
     }
 
     .l-menu ul li:nth-child(1){
@@ -465,7 +531,7 @@ strong{
 }
 
 .space{
-  margin-top: 40px;
+  margin: 100px auto;
 }
 
 .l-bran {
@@ -599,11 +665,13 @@ strong{
 
 .l-menu ul li {
   padding-top: 0px;
-  padding-bottom: 35px;
+  padding-bottom: 40px;
   font-size: 3.4rem;
   color: #fff;
   font-family: 'GT America', sans-serif;
   text-align:right;
+  margin-bottom: 0px;
+  line-height: 1;
 }
 
 .l-menu ul li:nth-child(1){
@@ -680,7 +748,7 @@ div.g-wrap {
 }
 
 .l-nav {
-  /*/*outline: 1px solid #fff;*/*/
+  /*outline: 1px solid #fff;*/
   position: relative;
   width: 1173px;
   height: 10px;
