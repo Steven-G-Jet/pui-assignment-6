@@ -615,11 +615,6 @@ strong{
   align-self: flex-end;
 }
 
-.col-2 img {
-  align-self: flex-end;
-}
-
-
 img#project-1-img {
       width: 100%;
       height: auto;
