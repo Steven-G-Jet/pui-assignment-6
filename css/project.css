@@ -249,6 +249,10 @@
       line-height: 1.45;
     }
 
+    nav.project.navbar{
+  background-color:transparent;
+}
+
 }
 
 
@@ -447,7 +451,7 @@ nav.project.navbar{
 
 
 
-/*project 2 starts here!!!!*/
+/*project 2 ends here!!!!*/
 
 
 
